@@ -1,0 +1,54 @@
+.site-contact{
+  padding: 150px 0 100px;
+  background: $gray;
+  // Delete/edit @include mobile and tablet
+  @include mobile{
+    padding: 120px 0 100px;
+  }
+  &-title{
+    font-weight: 700;
+    @include tablet{
+      font-size: 40px;
+    }
+    span{
+      color: $primary-color;
+    }
+  }
+  &-form{
+    margin-top: 20px;
+    &-mail{
+      font-size: 20px;
+      text-decoration: none;
+    }
+    &-icon{
+      height: 1em;
+      width: auto;
+      fill: green;
+    }
+    h4{
+      font-size: 40px;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      letter-spacing: 3px;
+      @include tablet{
+        font-size: 20px;
+      }
+      @include desktop{
+        margin-bottom: 70px;
+      }
+    }
+    h5{
+      font-size: 30px;
+      margin-top: 30px;
+      margin-bottom: 10px;
+    }
+    li{
+      font-size: 30px;
+      font-weight: 150;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      color: $primary-color;
+    } 
+  }
+}

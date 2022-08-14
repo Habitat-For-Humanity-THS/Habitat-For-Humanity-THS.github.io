@@ -1,0 +1,41 @@
+{{ with .Site.Data.team }}
+  {{ if .enable }}
+  <section class="site-team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title text-center">
+            <h2>
+              {{ .alt_title }}
+            </h2>
+          </div>
+        </div>
+        {{ range .members }}
+        <div class="col-lg-4 col-md-4">
+          <div class="site-team-member">
+            <div class="site-team-member-image">
+              <img src="{{ .image | absURL }}" alt="team-member">
+            </div>
+            <div class="site-team-member-content">
+              <h3>{{ .name }}</h3>
+              <p><strong>{{ .designation }}</strong></p>
+              <ul class="site-team-member-social">
+                {{ if .twitter}}
+                <li><a href="{{ .twitter | absURL }}"><i class="fa fa-twitter"></i></a></li>
+                {{end}}
+                {{ if .linkedIn}}
+                <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
+                {{end}}
+                {{ if .instagram}}
+                <li><a href="{{ .instagram | absURL }}"><i class="fa fa-instagram"></i></a></li>
+                {{end}}
+              </ul>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,14 @@
+subtitle: "Or Get in Touch Through"
+mail:
+  title: "Email"
+  email: "thsh4hpublic@gmail.com"
+services:
+  - title: "Discord"
+    link: "https://discord.com/"
+    image: "images/contacts/discord-brands.svg"
+  - title: "Instagram"
+    link: "https://www.instagram.com/"
+    image: "images/contacts/instagram-brands.svg"
+  - title: "Remind"
+    link: "https://www.remind.com/"
+    image: "images/contacts/comment-solid.svg"

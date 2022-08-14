@@ -1,0 +1,16 @@
+enable : true
+heading : "CLUB INFORMATION"
+counter_item: 
+    # plus is true/false
+  # - title: "Founded"
+  #   number: "20--"
+  #   plus: false
+
+  - title: "Members"
+    number: "15"
+    plus: true
+
+  - title: "Officers"
+    number: "6"
+    plus: false
+

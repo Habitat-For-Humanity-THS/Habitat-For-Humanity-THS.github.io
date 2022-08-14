@@ -1,0 +1,38 @@
+{{ with .Site.Params.events }}
+  {{ if .enable }}
+  <section class="site-project" id="project">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>{{ .title }}</h2>
+            <p>{{ .subtitle }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 card" style="border-radius: 25px;">
+          <div class="card-body">
+            <h4 class="card-title">School Year Event List</h4>
+            <p class="card-subtitle">Our past, present, and future events this school year!</p>
+            <!-- Add margins later later -->
+            <ul class="card-text" >
+              {{ range $.Site.Data.planned.items }}
+              <li>{{ .title }}</li>
+              {{ if eq .start .end}}
+              <p>{{ .start | time.Format ":date_long"}}</p>
+              {{ else }}
+              <p>{{ .start | time.Format ":date_long"}} - {{ .end | time.Format ":date_long"}}</p>
+              {{end}}
+              {{end}}
+            </ul>
+          </div>
+        </div>
+        <div class="col-6">
+          <div id="calendar-small"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

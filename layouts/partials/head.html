@@ -1,0 +1,57 @@
+<head>
+  <meta charset="utf-8" />
+  <title>{{ .Title }}</title>
+
+  <!-- Google Search Console -->
+
+  
+  {{ "<!-- mobile responsive meta -->" | safeHTML }}
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  {{ with .Site.Params.author }}
+  <meta name="author" content="{{ . }}">
+  {{ end }}
+  {{ hugo.Generator }}
+
+  {{ "<!-- Bootstrap -->" | safeHTML }}
+  {{ $bootstrap := resources.Get "css/bootstrap.css" | minify }}
+  <link rel="stylesheet" href="{{ $bootstrap.Permalink }}" />
+  {{ "<!-- font-awesome -->" | safeHTML }}
+  <link rel="stylesheet" href="{{ "font-awesome/css/font-awesome.min.css" | absURL }}" />
+  {{ "<!-- Main Stylesheets -->" | safeHTML }}
+  {{ $style := resources.Get "scss/style.scss" | resources.ToCSS | minify }}
+  <link href="{{ $style.Permalink }}" rel="stylesheet" />
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="{{ "images/favicon.png" | absURL }}" type="image/x-icon" />
+  <link rel="icon" href="{{ "images/favicon.ico" | absURL }}" type="image/x-icon" />
+
+  <!--FullCalendar-->
+  <link href='{{ .Site.BaseURL }}/fullcalendar/lib/main.css' rel='stylesheet' />
+  <script src='{{ .Site.BaseURL }}/fullcalendar/lib/main.js'></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      let calendarEl = document.getElementById('calendar-small');
+      let calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth',
+        contentHeight: 300,
+        eventColor: '#69D4F1',
+      });
+
+      {{ with .Site.Data.planned }}
+      {{ range .items}}
+      calendar.addEvent({
+        title: {{.title}},
+        start: {{.start}},
+        end: {{.end}},
+      });
+
+      {{end}}
+      {{end}}
+
+      calendar.render();
+    });
+
+
+  </script>
+</head>

@@ -1,0 +1,18 @@
+option: 2 # Option 1 is smaller; Option 2 is bigger
+event_info:
+  title: "Event Information"
+items:
+    # Recency will appear as "Last Updated ..."
+  # - title: "Club Meeting"
+  #   start: "2022-08-08"
+  #   end: "2022-08-08"
+  #   image: "images/events/ACM.png"
+  #   description: We'll have a meeting on this date! If you have any questions pertaining to the meeting such as location, date, or accessibility, please contact an officer ASAP.
+  #   recency: "2022-08-13"
+  - title: "2022 - 2023 School Year Begins"
+    start: "2022-08-10"
+    end: "2022-08-10"
+    image: "images/events/BTC.png"
+    description: Welcome back fellow students! Today the school year begins. We'll be posting information about the club soon so be on the watch for that. Cheers to the new year!
+    recency: "2022-08-08"
+  

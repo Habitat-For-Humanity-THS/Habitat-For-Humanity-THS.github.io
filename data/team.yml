@@ -1,0 +1,49 @@
+enable  : true
+title   : Our 2022 - 2023 Officers
+alt_title: Our Trusted Team
+ack_title: Acknowledgement
+acknowledgement:
+  - name        : Disclaimer
+    description : Home background is a Photo by Alfo Medeiros  https://www.pexels.com/photo/crouching-man-volunteering-in-a-garden-12025139/
+members  :
+  - image       : images/team/team-blue.jpg
+    name        : HAIDER MAHDI
+    designation : President
+    media     :
+    linkedIn    : https://www.linkedin.com/
+    description : Hello! I'm Haider Mahdi, a junior at Travis High school. I'm the president of the Habitat For Humanity club at Travis and strive to make this year the best I can for all members!
+
+  - image       : images/team/team-brown.jpg
+    name        : MOHAMMED IQBAL
+    designation : Vice President
+    twitter     : https://www.twitter.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+    description : Hi my name is Mohammad Iqbal and I'm an incoming Junior at Travis. I am an aspiring artist and leader and I want to see more justice and change implemented in the world. My favorite sport is Fútbol while my favorite color is jade green. I am an Aquarius which I don't know what that means and I am born on Groundhogs day.
+
+  - image       : images/team/team-green.jpg
+    name        : TONY HUNYH
+    designation : Secretary
+    twitter     : https://www.twitter.com/
+    linkedIn    : https://www.linkedin.com/
+    description : Hey there! My name is Tony Hunyh, an 11th grader at William B. Travis High school. I'm the secretary of this club, so talk to me if you need me!
+
+  - image       : images/team/team-red.jpg
+    name        : JARED BARON PANARES
+    designation : Event Coordinator
+    linkedIn    : https://www.linkedin.com/
+    description : Hello! I'm Jared Baron Panares, a junior at William B. Travis High school. Furthermore, I am the event coordinator of this club as well as the developer of this very site. My free time is usually spent with me coding or learning a new skill. I prefer my coffee plain black most morning but I do enjoy adding french vanilla. 
+
+  - image       : images/team/team-purple.jpg
+    name        : MELVIN OPARA
+    designation : Social Media Manager
+    instagram   : https://www.instagram.com/foreign.monk/
+    description : Hi! My name is Melvin Opara. I'm an 11th grader at William B. Travis High school. And I'm also a social media manager for the Habitat for Humanity club we have at our school. I'm passionate about music and enjoy playing basketball. Anyways, you can talk to me at any time if you have any inconveniences or you can drop by just to say hello. 
+
+  - image       : images/team/team-orange.jpg
+    name        : JACOB FORRAY
+    designation : Social Media Manager
+    twitter     : https://www.twitter.com/
+    linkedIn    : https://www.linkedin.com/
+    instagram   : https://www.instagram.com/
+    description : I’m Jacob Forray, social media manager for the Travis HS H4H club. I will be a Junior this year and play for the Travis Soccer team.
