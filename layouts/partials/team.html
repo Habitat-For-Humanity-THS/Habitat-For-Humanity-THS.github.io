@@ -22,13 +22,16 @@
               <p>{{ .description }}</p>
               <ul class="site-team-member-social">
                 {{ if .twitter}}
-                <li><a href="{{ .twitter | absURL }}"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="{{ .twitter | absURL }}" target="_blank"><i class="fa fa-twitter"></i></a></li>
                 {{end}}
                 {{ if .linkedIn}}
-                <li><a href="{{ .linkedin | absURL }}"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="{{ .linkedin | absURL }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                 {{end}}
                 {{ if .instagram}}
-                <li><a href="{{ .instagram | absURL }}"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="{{ .instagram | absURL }}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                {{end}}
+                {{ if .media}}
+                <li><a href="{{ .media | absURL}}" target="_blank"><i class="fa fa-folder-open"></i></a></li>
                 {{end}}
               </ul>
             </div>

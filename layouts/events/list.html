@@ -57,7 +57,7 @@
         <div class="col-12">
           <h3>Calendar</h3>
         </div>
-        <div class="col-6 card" style="border-radius: 25px;">
+        <div class="col-md-12 col-lg-6 col-sm-12 card" style="border-radius: 25px;">
           <div class="card-body">
             <h4 class="card-title">School Year Event List</h4>
             <p class="card-subtitle">Our past, present, and future events this school year!</p>
@@ -74,7 +74,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-6">
+        <div class="site-project-calendar col-md-12 col-lg-6 col-sm-12">
           <div id="calendar-small"></div>
         </div>
       </div>
@@ -91,7 +91,7 @@
         <div class="site-project-partial-scroll ">
           {{ $items := $.Site.Data.planned.items }}
           {{ range $index, $value := $items}}
-          <div class="site-project-partial-scroll-custom col-4 card mt-3 {{ if  not (eq (add $index 1) (len $items)) }} mr-5 {{end}}">
+          <div class="site-project-partial-scroll-custom col-lg-4 col-md-6 col-sm-12 card mt-3 {{ if  not (eq (add $index 1) (len $items)) }} mr-5 {{end}}">
             <div class="card-deck">
               <img src="{{ .image | absURL }}" class="card-img" alt="{{ .title }} image">
               <div class="card-body">
@@ -112,7 +112,7 @@
     <div class="site-project-partial-scroll">
       {{ $items := $.Site.Data.planned.items }}
       {{ range $index, $value := $items}}
-      <div class="site-project-partial-scroll-custom col-4 card mt-3 {{ if eq (add $index 1) (len $items) }} mr-5 {{ else if eq $index 0 }} ml-5 mr-5 {{else}} mr-5 {{end}}">
+      <div class="site-project-partial-scroll-custom col-lg-4 col-md-6 col-sm-12 card mt-3 {{ if eq (add $index 1) (len $items) }} mr-5 {{ else if eq $index 0 }} ml-5 mr-5 {{else}} mr-5 {{end}}">
         <div class="card-deck">
           <img src="{{ .image }}" class="card-img" alt="{{ .title }} image">
           <div class="card-body">

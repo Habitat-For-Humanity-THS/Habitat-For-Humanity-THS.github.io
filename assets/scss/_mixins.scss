@@ -13,6 +13,11 @@
     @content;
   }
 }
+@mixin bs-col-md{
+  @media(max-width:992px){
+    @content;
+  }
+}
 @mixin desktop{
   @media(max-width:991px){
     @content;

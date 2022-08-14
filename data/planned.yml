@@ -2,6 +2,7 @@ option: 2 # Option 1 is smaller; Option 2 is bigger
 event_info:
   title: "Event Information"
 items:
+  # TODO: Update Club Meeting Event
     # Recency will appear as "Last Updated ..."
   # - title: "Club Meeting"
   #   start: "2022-08-08"

@@ -1,6 +1,14 @@
 .site-project{
   padding: 120px 0px;
   overflow: hidden;
+  &-calendar{
+    @include tablet{
+      padding-top: 20px;
+    }
+    @include bs-col-md{
+      padding-top: 20px;
+    }
+  }
   &-titular_margin{
     margin: 120px 0px 0px;
   }

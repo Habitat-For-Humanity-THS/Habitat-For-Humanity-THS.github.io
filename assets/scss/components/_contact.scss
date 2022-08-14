@@ -7,9 +7,6 @@
   }
   &-title{
     font-weight: 700;
-    @include tablet{
-      font-size: 40px;
-    }
     span{
       color: $primary-color;
     }
@@ -30,13 +27,7 @@
       font-weight: 300;
       text-transform: uppercase;
       margin-bottom: 10px;
-      letter-spacing: 3px;
-      @include tablet{
-        font-size: 20px;
-      }
-      @include desktop{
-        margin-bottom: 70px;
-      }
+      letter-spacing: 3px;      
     }
     h5{
       font-size: 30px;

@@ -1,6 +1,7 @@
 enable : true
 heading : "CLUB INFORMATION"
 counter_item: 
+  # TODO: Add Founded Date
     # plus is true/false
   # - title: "Founded"
   #   number: "20--"
