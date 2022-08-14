@@ -47,7 +47,7 @@ summarylength = 25
   [params.events]
     enable    = true
     title     = "OUR EVENTS"
-    subtitle  = "We have multiple events scheduled throughout the year!"
+    subtitle  = "We'll have multiple events scheduled throughout the year!"
     questions = "QUESTIONS"
     q_descriptions = "If you have a question or want to recommend an event please contact us via the methods listed in the Contacts page!"
 

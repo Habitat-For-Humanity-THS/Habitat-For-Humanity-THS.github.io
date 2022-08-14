@@ -10,8 +10,7 @@ Languages: HTML, CSS, Javascript
 Theme: roxo-hugo by StaticMania
 
 ## See also
-
-* https://jarpiano.github.io/habitat-pilot
+* https://Habitat-For-Humanity-THS.github.io/
 * https://gohugo.io/
 * https://themes.gohugo.io/themes/roxo-hugo/
 * https://roxo-hugo.staticmania.com/
