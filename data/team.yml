@@ -3,8 +3,8 @@ title   : Our 2022 - 2023 Officers
 alt_title: Our Trusted Team
 ack_title: Acknowledgement
 acknowledgement:
-  - name        : Disclaimer
-    description : Home background is a Photo by Alfo Medeiros  https://www.pexels.com/photo/crouching-man-volunteering-in-a-garden-12025139/
+  - name        : Disclaimer 
+    description : This is a student operated website. It does not represent FBISD nor is it endorsed by FBISD
 members  :
     # Twitter, LinkedIn, and Instagram can be included as such:
     # linkedin: [insert link]
@@ -30,7 +30,7 @@ members  :
     designation : Event Coordinator
     media       : https://jarpiano.github.io/
     linkedIn    : https://www.linkedin.com/
-    description : Hello! I'm Jared Baron Panares, a junior at William B. Travis High School. Furthermore, I am the event coordinator of this club as well as the developer of this very site. My free time is usually spent with me coding or learning a new skill. I prefer my coffee plain black most mornings but I do enjoy adding french vanilla. 
+    description : Hello! I'm Jared Baron Panares, a junior at William B. Travis High School. I am the event coordinator of this club as well as the developer of this site. My free time is spent with coding or learning a new skill. I prefer my coffee black.
 
   - image       : images/team/team-purple.jpg
     name        : MELVIN OPARA

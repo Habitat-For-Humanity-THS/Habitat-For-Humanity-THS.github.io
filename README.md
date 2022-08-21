@@ -4,7 +4,7 @@ A repository for Habitat For Humanity Travis Chapter
 
 ## Details
 
-Author(s): Jared Baron Panares
+Author(s): Jared Baron Panares  
 Framework: Hugo  
 Languages: HTML, CSS, Javascript  
 Theme: roxo-hugo by StaticMania

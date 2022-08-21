@@ -8,7 +8,7 @@ services:
     link: "https://discord.com/"
     image: "images/contacts/discord-brands.svg"
   - title: "Instagram"
-    link: "https://www.instagram.com/"
+    link: "https://www.instagram.com/travishfh/"
     image: "images/contacts/instagram-brands.svg"
   - title: "Remind"
     link: "https://www.remind.com/"

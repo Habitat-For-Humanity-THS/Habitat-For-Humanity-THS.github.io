@@ -54,7 +54,7 @@ summarylength = 25
   [params.meeting]
     enable    = true
     title     = "OUR MEETINGS"
-    subtitle  = "Meetings dates will soon be decided!"
+    subtitle  = "All meetings will take place on the 2nd Wednesday of each month (excluding august/september)"
     notice    = "Members must come in a timely manner for attendance"
     statement = "If a member cannot attend please contact us via the methods listed on the Contact page or privately message an officer."
 
@@ -101,8 +101,8 @@ summarylength = 25
           url  = "#"
         [[params.footer.social.link]]
           name = "Instagram"
-          url  = "#"
+          url  = "https://www.instagram.com/travishfh/"
       # Footer Service
       [params.footer.service]
         title       = "Credits"
-        description = 'This site was built using the <a href="https://gohugo.io/" target="_blank">Hugo</a> framework using the Hugo <a href="https://github.com/StaticMania/roxo-hugo" target="_blank">roxo</a> theme and initially made by <a href="https://github.com/Jarpiano" target="_blank"> Jarpiano</a>'
+        description = 'Built using <a href="https://gohugo.io/" target="_blank">Hugo</a><br>Using Hugo <a href="https://github.com/StaticMania/roxo-hugo" target="_blank">roxo</a><br>Made by <a href="https://github.com/Jarpiano" target="_blank"> Jarpiano</a>'
