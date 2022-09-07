@@ -1,13 +1,16 @@
 items:
     # Ordered by recency descending; Largest number = most recent
-    # TODO: Update Website Launch Date
+  - title: Interest Meeting
+    date: 09/06/2022
+    description: Hi! For anybody interested in joining, we have an interest meeting on September 14th, 2022. Hope to see you there!
+    recency: 4
   - title: Website Launch
     date: 08/13/2022
     description: Today, we launch our official club website! Any announcements, events, or anything regarding the club can be addressed here. Visit our contact page if you have questions!
     recency: 2
-  - title: Accepting Members
+  - title: "2022 - 2023 School Year"
     date: 08/13/2022
-    description: Welcome to the new school year! We are now accepting members for the 2022-2023 school year. If you have any questions please contact us and check remind for the most recent updates.
+    description: We are now accepting members for the 2022-2023 school year! For any questions please contact us and check remind for the most recent updates.
     recency: 3
   - title: Initial Website Development
     date: 7/10/2022

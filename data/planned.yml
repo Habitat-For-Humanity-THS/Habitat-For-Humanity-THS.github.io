@@ -11,8 +11,8 @@ items:
   #   description: We'll have a meeting on this date! If you have any questions pertaining to the meeting such as location, date, or accessibility, please contact an officer ASAP.
   #   recency: "2022-08-13"
   - title: "Interest Meeting"
-    start: "2022-09-07"
-    end: "2022-09-07"
+    start: "2022-09-14"
+    end: "2022-09-14"
     image: "images/events/SCM.png"
     description: The interest meeting is on September 7th, 2022. Hope to see your there!
     recency: "2022-08-22"
