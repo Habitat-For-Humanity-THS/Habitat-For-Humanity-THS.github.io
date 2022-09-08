@@ -4,9 +4,9 @@ mail:
   email: "thsh4hpublic@gmail.com"
 services:
   # TODO: Update/Add new services and links
-  - title: "Discord"
-    link: "https://discord.com/"
-    image: "images/contacts/discord-brands.svg"
+  - title: "Twitter"
+    link : "https://twitter.com/H4HTHS"
+    image: "images/contacts/twitter.svg"
   - title: "Instagram"
     link: "https://www.instagram.com/travishfh/"
     image: "images/contacts/instagram-brands.svg"
