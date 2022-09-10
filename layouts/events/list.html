@@ -26,13 +26,17 @@
       {{ with .Site.Params.meeting}}
       {{ if .enable }}
       <div class="col-12">
-        <div class="section-title">
+        <div class="section-title text-center">
           <h2 class="site-meeting-title">{{ .title }}</h2>
-          <h4 class="site-meeting-subtitle">{{ .subtitle }}</h4>
-          <ul>
-            <li class="site-meeting-subtitle"><h4>{{ .notice }}</h4></li>
-            <li class="site-meeting-subtitle"><h4>{{ .statement }}</h4></li>
-          </ul>
+          <div class="site-meeting-subtitle">
+            <h4>{{ .subtitle }}</h4>
+            <h4>{{ .subtitle2 }}</h4>
+            <hr>
+            <h4>{{ .notice }}</h4></li>
+            <hr>
+            <h4>{{ .statement }}</h4>
+            <h4>{{ .statement2 }}</h4>
+          </div>
         </div>
       </div>
       {{end}}

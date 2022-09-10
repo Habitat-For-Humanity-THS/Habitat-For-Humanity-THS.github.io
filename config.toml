@@ -54,9 +54,11 @@ summarylength = 25
   [params.meeting]
     enable    = true
     title     = "OUR MEETINGS"
-    subtitle  = "All meetings will take place on the 2nd Wednesday of each month (excluding august/september)"
-    notice    = "Members must come in a timely manner for attendance"
-    statement = "If a member cannot attend please contact us via the methods listed on the Contact page or privately message an officer."
+    subtitle  = "Every Month,"
+    subtitle2 = "2nd Wednesday."
+    notice    = "Come in a timely manner."
+    statement = "Can't come?"
+    statement2= "Be excused. Contact an Officer."
 
   [params.announcement]
     enable    = true

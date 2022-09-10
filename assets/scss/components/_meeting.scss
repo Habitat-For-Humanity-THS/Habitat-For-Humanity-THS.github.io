@@ -6,12 +6,17 @@
       color: $white;
   }
   &-subtitle{
-      font-weight: 500;
+      font-weight: lighter;
       color: $white;
       font-family: $secondary-font;
       h4{
         color: $white;
-        font-weight: 500;
+        font-weight: lighter;
+      }
+      hr{
+        border: 0;
+        height: 1px;
+        background-color: $white;
       }
   }
   &-item{
