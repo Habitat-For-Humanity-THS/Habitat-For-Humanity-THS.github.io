@@ -3,7 +3,6 @@ mail:
   title: "Email"
   email: "thsh4hpublic@gmail.com"
 services:
-  # TODO: Update/Add new services and links
   - title: "Twitter"
     link : "https://twitter.com/H4HTHS"
     image: "images/contacts/twitter.svg"
