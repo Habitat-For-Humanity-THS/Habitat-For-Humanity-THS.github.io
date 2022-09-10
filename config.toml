@@ -75,12 +75,12 @@ summarylength = 25
   [params.footer]
     # Footer Contact Info
     [params.footer.contactInfo]
-      title   = "Contact Info"
+      title   = "Contacts"
       address = "11111 Harlem Road Pecan Grove, Richmond, Texas 77406 United States"
       email   = "thsh4hpublic@gmail.com"
       # Footer Sitemap
       [params.footer.sitemap]
-        title   = "Sitemap"
+        title   = "Links"
         [[params.footer.sitemap.link]]
           name = "Home"
           url  = "/"
@@ -95,14 +95,14 @@ summarylength = 25
           url  = "contact"
       # Footer Social Media
       [params.footer.social]
-        title   = "Social Media"
+        title   = "Follow"
         [[params.footer.social.link]]
           name = "Twitter"
-          url  = "#"
+          url  = "https://twitter.com/H4HTHS"
         [[params.footer.social.link]]
           name = "Instagram"
           url  = "https://www.instagram.com/travishfh/"
       # Footer Service
       [params.footer.service]
-        title       = "Credits"
-        description = 'Built using <a href="https://gohugo.io/" target="_blank">Hugo</a><br>Using Hugo <a href="https://github.com/StaticMania/roxo-hugo" target="_blank">roxo</a><br>Made by <a href="https://github.com/Jarpiano" target="_blank"> Jarpiano</a>'
+        title       = "Who We Are"
+        description = 'We are the H4H Travis HS.<br>We are Family.<br>We are Tigers.'
