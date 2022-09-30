@@ -54,8 +54,8 @@ summarylength = 25
   [params.meeting]
     enable    = true
     title     = "OUR MEETINGS"
-    subtitle  = "Every Month,"
-    subtitle2 = "2nd Wednesday."
+    subtitle  = "Every Month, 2nd Wednesday."
+    subtitle2 = "But keep in touch on Remind for changes!"
     notice    = "Come in a timely manner."
     statement = "Can't come?"
     statement2= "Be excused. Contact an Officer."

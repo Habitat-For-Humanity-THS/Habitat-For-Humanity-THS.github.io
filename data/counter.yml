@@ -8,7 +8,7 @@ counter_item:
   #   plus: false
 
   - title: "Members"
-    number: "15"
+    number: "20"
     plus: true
 
   - title: "Officers"
