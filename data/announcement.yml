@@ -1,5 +1,9 @@
 items:
     # Ordered by recency descending; Largest number = most recent
+  - title: General Meeting
+    date: 11/22/2022
+    description: Our next interest meeting will be taking place in January. No meeting December!
+    recency: 5
   - title: Interest Meeting
     date: 09/06/2022
     description: Hi! For anybody interested in joining, we have an interest meeting on September 14th, 2022. Hope to see you there!
