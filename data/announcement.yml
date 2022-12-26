@@ -1,6 +1,10 @@
 items:
     # Ordered by recency descending; Largest number = most recent
   - title: General Meeting
+    date: 12/26/2022
+    description: "Don't forget our general meeting is on the 2nd Wednesday! Hint: January 11th"
+    recency: 6
+  - title: General Meeting
     date: 11/22/2022
     description: Our next interest meeting will be taking place in January. No meeting December!
     recency: 5

@@ -10,6 +10,12 @@ items:
   #   image: "images/events/ACM.png"
   #   description: We'll have a meeting on this date! If you have any questions pertaining to the meeting such as location, date, or accessibility, please contact an officer ASAP.
   #   recency: "2022-08-13"
+  - title: "January General Meeting"
+    start: "2023-01-11"
+    end: "2023-01-11"
+    image: "images/events/JCM.png"
+    description: Happy New Year! Our next general meeting will be on the 11th of January. See you there!
+    recency: "2022-12-26"
   - title: "Interest Meeting"
     start: "2022-09-14"
     end: "2022-09-14"
