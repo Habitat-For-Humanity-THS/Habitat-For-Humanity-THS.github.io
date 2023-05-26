@@ -1,6 +1,10 @@
 # Habitat Pilot
 
-A repository for Habitat For Humanity Travis Chapter
+A repository for Habitat For Humanity Travis Chapter 2022 - 2023
+
+### Note
+
+**No longer in use by the H4H club at William B. Travis High School**
 
 ## Details
 
