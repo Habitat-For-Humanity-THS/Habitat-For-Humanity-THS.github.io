@@ -33,3 +33,8 @@ $(window).on('scroll', function () {
     $('.site-navigation').removeClass('nav-bg');
   }
 });
+
+function visible() {
+  document.getElementById("mod").style.visibility = "hidden";
+  document.getElementById("overlay").style.visibility = "hidden";
+}
